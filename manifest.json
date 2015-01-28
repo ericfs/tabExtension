@@ -4,4 +4,21 @@
   "name": "Tab Mover",
   "description": "Rearrange tabs with keyboard shortcuts like on linux.",
   "version": "1.0",
+  "commands": {
+    "move-tab-right": {
+      "suggested_key": {
+        "mac": "MacCtrl+Shift+PageDown"
+      },
+      "description": "move tab right"
+    },
+    "move-tab-left": {
+      "suggested_key": {
+        "mac": "MacCtrl+Shift+PageUp"
+      },
+      "description": "move tab left"
+    }
+  },
+  "background": {
+    "scripts": ["backgroundscript.js"]
+  }
 }
