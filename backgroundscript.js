@@ -1,6 +1,5 @@
 // Listen for keyboard commands.
 chrome.commands.onCommand.addListener(function(command){
-  console.log(command);
   chrome.tabs.query({currentWindow: true, active: true}, function(tabs) {
     var tab = tabs[0];
     var newIndex = tab.index;

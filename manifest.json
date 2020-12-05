@@ -3,7 +3,7 @@
 
   "name": "Tab Mover",
   "description": "Rearrange tabs with keyboard shortcuts like on linux.",
-  "version": "1.0",
+  "version": "2.0",
   "commands": {
     "move-right": {
       "suggested_key": {
