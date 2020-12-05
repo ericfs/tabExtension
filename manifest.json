@@ -28,6 +28,9 @@
         "mac": "MacCtrl+Shift+Comma"
       },
       "description": "Alternative command to move left."
+    },
+    "new-window": {
+      "description": "Move the current tab to a new window."
     }
   },
   "background": {
