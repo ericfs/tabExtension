@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
 
   "name": "Tab Mover",
   "description": "Rearrange tabs with keyboard shortcuts.",
@@ -34,6 +34,6 @@
     }
   },
   "background": {
-    "scripts": ["backgroundscript.js"]
+    "service_worker": "backgroundscript.js"
   }
 }
